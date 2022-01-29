@@ -1,0 +1,99 @@
+body{
+    /* background-color: rgb(255, 255, 255); */
+    /* background-color:rgb(116, 176, 255); */
+    /* background-image: url('https://i.pinimg.com/originals/9f/5c/88/9f5c880370a7f0e38ccde6f778ddcfba.jpg');
+    background-repeat: repeat;
+    background-size: cover; */
+    background-color:rgb(255, 255, 255);
+}
+.nav-card{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 40px;
+    margin: 20px;
+    background-color:rgb(236, 236, 236);
+    box-shadow: 10px 10px 10px rgba(128, 126, 129, 0.548), 
+            -10px -10px 10px rgba(163, 163, 163, 0.473);
+}
+.content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(206, 206, 206);
+    margin: 20px;
+    overflow-y: overlay;
+    border-radius: 40px;
+    background-image: url('blob:https://web.whatsapp.com/02065eeb-aa80-4b71-971e-a98ed2865a56');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-card .heading{
+    font-family: 'Pacifico';
+    color: turquoise;
+    font-size: 55px;
+    text-align: center;
+}
+.nav-card .a{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bolder;
+    font-size: 25px;
+    /* color: rgb(255, 255, 255); */
+    color: #ffffff;
+}
+.name{
+    background-color: rgb(226, 226, 226);
+}
+.profile-icon{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: larger;
+    color:rgb(112, 112, 112);
+}
+.morphica{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(128, 126, 129, 0.349), 
+            -10px -10px 10px rgba(163, 163, 163, 0.253);
+}
+.nav-container{
+    margin-top: 50px;
+    text-align: center;
+    /* background-color: rgba(70, 168, 70, 0.473); */
+}
+.nav-container img{
+    margin: 10px; 
+    /* background-color: rgba(76, 0, 130, 0.527); */
+}
+#certificates{
+    font-size: 0px;
+}
+.Cert-card{
+    display: inline-block;
+    border-radius: 20px;
+    background-color:rgb(228, 228, 228);
+    box-shadow: 10px 10px 10px rgba(128, 126, 129, 0.548), 
+            -10px -10px 10px rgba(163, 163, 163, 0.473);
+}
+
+/* scroll bar design */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+    margin-left: 20px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 20px;
+    width: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  ::-webkit-scrollbar-button {
+    height: 50px;
+  }

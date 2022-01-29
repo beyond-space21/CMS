@@ -1,0 +1,10 @@
+judge0 api was installed in google cloud VM
+
+VM public ip: 35.226.152.253
+app running port: 2358
+
+example judge0 page: 35.226.152.253:2358/dummy-client.html
+
+check doc for implementation
+
+*google cloud VM must be running in order for judge0 to function
