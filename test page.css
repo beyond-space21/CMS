@@ -28,7 +28,7 @@ body,html{
     height: 100px;
     padding-left: 10px;
     padding-top: 10px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     background-color: rgb(31, 31, 31);
 }
 .bottom-dash:hover{
@@ -87,6 +87,7 @@ canvas{
 
 /* scroll bar design */
 ::-webkit-scrollbar {
+    height: 6px;
     width: 6px;
   }
   ::-webkit-scrollbar-track {
@@ -96,12 +97,14 @@ canvas{
     background: #888; 
     border-radius: 20px;
     width: 2px;
+    height: 2px;
   }
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
   ::-webkit-scrollbar-button {
     height: 0px;
+    width: 0px;
   }
   .qa {
     position: fixed;
@@ -198,7 +201,7 @@ canvas{
     right: 0;
     bottom: 0;
     top: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 40%;
     min-width: 200px;
     background-color: rgb(29, 21, 59);
@@ -211,6 +214,12 @@ canvas{
     cursor:col-resize;
     background-color: rgb(56, 49, 39);
   }
+  .exe .crd{
+    margin-left: 10px;
+  }
   .prblm{
     background-color: rgb(71, 71, 71);
+  }
+  .hljs{
+    background-color: transparent;
   }
