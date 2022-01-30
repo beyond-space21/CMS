@@ -8,23 +8,29 @@
     <link rel="stylesheet" href="test page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/zenburn.min.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="top-dash">
-        <div class="lan">python 3.0.1
-            <img src="imgs/expand_list.svg" width="10px" alt="">
+        <div>
+            <img src="imgs/home.svg" width="20px" alt="">
         </div>
-        <img class="run" src="imgs/run_btn.svg" width="12px" alt="">
+        <div class="prg-con">
+            <img class="run" src="imgs/run_btn.svg" width="12px" alt="">
+        <div class="lan">
+            <img src="imgs/expand_list.svg" width="10px" alt="">
+            python 3.0.1
+        </div>
+    </div>
     </div>
 
     <!-- code here -->
     <div class="exe">
         <div class="slide" onmousedown="drgstate(true)" onmouseup="drgstate(false)"></div>
-        <pre><code class="hljs style-base16/solarised-dark">
+        <pre><code class="hljs style-base16/solarised-dark language-python">
 # Program to add two matrices using nested loop
 
 X = [[12,7,3],
