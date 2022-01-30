@@ -25,9 +25,29 @@
     <div class="exe">
         <div class="slide" onmousedown="drgstate(true)" onmouseup="drgstate(false)"></div>
         <pre><code class="hljs style-base16/solarised-dark">
-while(True):
-    print('hello')
-    'hello'
+# Program to add two matrices using nested loop
+
+X = [[12,7,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+
+Y = [[5,8,1],
+    [6,7,3],
+    [4,5,9]]
+
+result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+
+# iterate through rows
+for i in range(len(X)):
+   # iterate through columns
+   for j in range(len(X[0])):
+       result[i][j] = X[i][j] + Y[i][j]
+
+for r in result:
+   print(r)
+            
 </code></pre>
     </div>
 
@@ -54,9 +74,11 @@ while(True):
                 them, find out what is the sum of the distances that each house owner has to walk to take their trashes
                 out. You can assume that at least one house has a trash bin in front of it.
             </div>
-
-            <!-- input -->
+<!-- io -->
             <div class="io">
+                <h3>Example IO:</h3>
+                <div class="flx">
+            <!-- input -->
                 <div class="crd">
                     <div class="headi">Input:</div>
                     <pre><code>
@@ -73,6 +95,7 @@ while(True):
 'The given value stisfys the requirement'
                     </code></pre>
                 </div>
+            </div>
             </div>
     </div>
 
