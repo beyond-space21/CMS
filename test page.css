@@ -107,14 +107,44 @@ canvas{
     background-color: rgb(77, 77, 77);
   }
   .qa .headi {
-    width: fit-content;
+      color: rgb(175, 175, 175);
+  }
+  .qa .crd {
+      width: fit-content;
       padding: 10px;
       margin: 10px;
-      border-radius: 10px;
+      border-radius: 20px;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
       color: rgb(240, 240, 240);
       background-color: rgb(59, 59, 59);
+  }
+  .io{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(59, 59, 59);
+    border-radius: 20px;
+    width: fit-content;
+  }
+  .io .crd{
+    margin:10px;
+    min-width: 250px;
+    width: fit-content;
+  }
+  .io .headi{
+    /* height: 30px; */
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+    /* border-radius: 10px; */
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    /* background-color: #576e3e; */
+    width: fit-content;
+    /* padding-right: 10px; */
   }
   .qa p{
     font-family: 'Roboto', sans-serif;
@@ -164,4 +194,10 @@ canvas{
     width: 10px;
     cursor:col-resize;
     background-color: rgb(56, 49, 39);
+  }
+  .prblm{
+    background-color: rgb(71, 71, 71);
+  }
+  .hljs{
+    background-color: blanchedalmond;
   }
